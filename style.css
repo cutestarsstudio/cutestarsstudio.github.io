@@ -52,9 +52,7 @@ footer{background:var(--dark);color:#fff;text-align:center;padding:30px 20px;fon
 footer img{width:220px;border-radius:12px;margin-bottom:10px}
 @media (max-width:760px){.hero,.meet{grid-template-columns:1fr;text-align:center}.hero p{margin-left:auto;margin-right:auto}nav ul{gap:12px;font-size:15px}}
 
-.brandtxt{display:flex;flex-direction:column;align-items:center;line-height:1}
-.brand .brandtxt .display{font-size:24px;color:var(--yellow);-webkit-text-stroke:1px var(--dark)}
-.brand .script{font-family:Pacifico,cursive;color:#fff;font-size:19px;margin-top:-2px;transform:rotate(-4deg);text-shadow:2px 2px 0 var(--dark)}
+.brand img.logo{width:auto;height:70px;border:0;border-radius:0}
 .crumbs{font-size:14px;margin:14px 0 0}.crumbs a{color:#fff}
 .pagehead{padding:26px 0 40px}.pagehead h1{font-size:clamp(34px,6vw,58px);line-height:1.05;margin:10px 0;color:var(--yellow);text-shadow:4px 4px 0 var(--dark)}
 .pagehead p{font-size:19px;max-width:720px}
